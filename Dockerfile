@@ -13,7 +13,7 @@ ENV BITBUCKET_HOME=/var/atlassian/bitbucket \
     BITBUCKET_PROXY_SCHEME= \
     BITBUCKET_BACKUP_CLIENT=/opt/backupclient/bitbucket-backup-client \
     BITBUCKET_BACKUP_CLIENT_HOME=/opt/backupclient \
-    BITBUCKET_BACKUP_CLIENT_VERSION=300300300
+    BITBUCKET_BACKUP_CLIENT_VERSION=300400000
 
 RUN export MYSQL_DRIVER_VERSION=5.1.47 && \
     export CONTAINER_USER=bitbucket &&  \
